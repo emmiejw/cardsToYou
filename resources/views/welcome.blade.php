@@ -16,8 +16,7 @@
          }
       html {
             font-family: 'Patrick Hand', cursive;
-            margin: 20px;
-            background: linear-gradient(to top left, rebeccapurple, lightblue, beige);
+            background: linear-gradient(to top left, rebeccapurple, pink, lightblue, beige);
         }
 
         .header {
