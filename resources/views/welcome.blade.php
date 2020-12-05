@@ -8,7 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Lobster&family=Patrick+Hand&family=Satisfy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Lobster&family=Patrick+Hand&family=Satisfy&display=swap" rel="stylesheet">
         <!-- Styles -->
         <style>
                     * {
@@ -69,7 +69,7 @@
 
    .link {
       text-align:center;
-      margin-top: -200px;
+      margin-top: -100px;
       margin-bottom:20px;
       font-weight:bold;
       font-size: 18px;
@@ -86,23 +86,26 @@
   .responsive {
     width: 100%;
   }
+  
         </style>
     </head>
     <body>
         <p class="header">Cards 2 You</p>
-   <div class="link">
-         <a href="https://fb.me/1HSAa4j2v7AkKK5">Visit Our Shop</a> 
-   </div>
+
    <div class="box">
-      <h3 style="text-align:center;">Huge variety of cards in the local area of the waterside </h3>
+      <h1 style="text-align:center;">Cards for Every Occasion & Personality <br> Huge variety of cards in the local area of the waterside</h1>
       <img src="images/image0 (1).jpeg" alt="" style="width: 100%;
-         height:70%;">
+         height:70%; margin-bottom: 30px;">
        <div class="clearfix"></div>
+       <br>
+
+       <div class="link">
+         <a href="https://fb.me/1HSAa4j2v7AkKK5"><h1>Visit Our Shop</h1></a> 
+   </div>
        <div style="text-align:center;">
-             <a href="mailto:cardstoyou@aol.com" >Email Us for any Unique Card Requests</a> 
+             <a href="mailto:cardstoyou@aol.com" ><h2>Email Us for any Unique Card Requests</h2></a> 
        </div>
    </div>
-   <h2 style="text-align: center;">Cards for Every Occasion & Personality</h2>
    <br>
    <div class="responsive">
       <div class="gallery">
