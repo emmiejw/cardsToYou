@@ -33,6 +33,7 @@
             padding: 50px;
             margin: auto;
             border-radius: 25px;
+            margin-top:-50px;
         }
 
          div.gallery {
@@ -89,13 +90,14 @@
         </style>
     </head>
     <body>
-        <p class="header">Cards 2 You</p>
-
+     <p class="header">Cards 2 You</p>
    <div class="box">
-      <h1 style="text-align:center;">Cards for Every Occasion & Personality <br> Huge variety of cards in the local area of the waterside</h1>
-      <img src="images/image0 (1).jpeg" alt="" style="width: 100%;
-         height:70%; margin-bottom: 30px;">
+        <img src="images/logo.jpg" style="height:100px; width:100px; display: block; margin-left: auto; margin-right: auto; margin-top:-20px;">
+      <h3 style="text-align:center;">Cards for Every Occasion & Personality <br> Huge variety of cards in the local area of the waterside</h3>
        <div class="clearfix"></div>
+       @include('carosel')
+       <div class="clearfix" style="margin-bottom:70px;"></div>
+
        <br>
 
        <div class="link">
@@ -108,37 +110,36 @@
    <br>
    <div class="responsive">
       <div class="gallery">
-         <a target="_blank" href="images/image0.jpeg">
-            <img src="images/image0.jpeg" alt="Traditional Chirstmas Cards" width="600" height="300">
+         <a target="_blank" href="images/female.jpg">
+            <img src="images/female.jpg" alt="Chirstmas Cards for females" width="550" height="300">
          </a>
-         <div class="desc">Traditional Chirstmas Cards</div>
+         <div class="desc">Chirstmas Cards for the Ladies in Your life</div>
       </div>
    </div>
    <div class="responsive">
-      <div class="gallery">
-         <a target="_blank" href="images/image2.jpeg">
-            <img src="images/image2.jpeg" alt="Novelty Cards and Christmas Gift Bags" width="600" height="400">
+        <div class="gallery">
+         <a target="_blank" href="images/male.jpg">
+            <img src="images/male.jpg" alt="Chirstmas Cards for the Males" width="550" height="300">
          </a>
-         <div class="desc">Novelty Cards and Christmas Gift Bags</div>
+         <div class="desc">Chirstmas Cards for the Men in Your life</div>
       </div>
    </div>
 <div class="responsive">
    <div class="gallery">
-      <a target="_blank" href="images/image3.jpeg">
-         <img src="images/image3.jpeg" alt="Tongue and Cheek Cards" width="600" height="400">
+      <a target="_blank" href="images/parents.jpg">
+         <img src="images/parents.jpg" alt="For Your Special Parents" width="550" height="400">
       </a>
-      <div class="desc">Tongue and Cheek Cards</div>
+      <div class="desc">For Your Special Parents</div>
    </div>
 </div>
    <div class="responsive">
    <div class="gallery">
-      <a target="_blank" href="images/image4.jpeg">
-         <img src="images/image4.jpeg" alt="Cards for All the Family" width="600" height="400">
+      <a target="_blank" href="images/grandparents.jpg">
+         <img src="images/grandparents.jpg" alt="Cards for the grandparents" width="550" height="400">
       </a>
-      <div class="desc">Cards for All the Family</div>
+      <div class="desc">Cards for the Grandparents</div>
    </div>
    </div>
    <div class="clearfix"></div>
-    
     </body>
 </html>
